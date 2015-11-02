@@ -1,0 +1,77 @@
+﻿/* 
+MyResume.html Style Sheet
+*/
+
+.red {
+    color: darkred;
+}
+
+.fill-red {
+    color: white;
+    background-color: darkred;
+}
+
+.grey {
+    color: dimgrey;
+}
+
+.profile-picture{
+    height: 110px;
+    width: 85px;
+    border-radius: 100px;
+}
+
+.profile-image {
+    text-align: center;
+}
+
+/*Style for "name" at top of CV*/
+.profile-name {  
+    font-size: 40px;
+}
+
+.profile-contact-info {
+    height: 205px;
+    border-bottom: 1px solid black !important;
+}
+
+section {
+    margin-bottom: 10px;   
+}
+
+/*Style for all <div> elements WITHIN <section> elements*/
+section div {
+    margin-left: 20px;
+    
+}
+
+.section-topic {
+    max-width: 250px;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: -15px;
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+
+.section-employer {
+    margin-left: 25px;
+}
+
+.section-dates {
+    margin-bottom: 5px;
+}
+
+.section-degree {
+    margin-left: 30px;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.sidebar {
+    padding: 20px;
+    min-height: 200px;
+    background-color: #2C2A2C;
+    color: #C7C7C7;
+    padding-left: 30px;
+}
