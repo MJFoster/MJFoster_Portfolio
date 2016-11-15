@@ -21,7 +21,7 @@ section > .wrap-top {
 HDR Attributes
 *****************************/
 .wrap-hdr {
-  background-image: url('https://dl.dropboxusercontent.com/u/3562920/_USERS/MaryJo/.%20EDUCATION/.%20Source/_RESOURCES/img/green-grass.jpg');
+  /* background-image: url('https://dl.dropboxusercontent.com/u/3562920/_USERS/MaryJo/.%20EDUCATION/.%20Source/_RESOURCES/img/green-grass.jpg'); */
   background-size: cover;
   border-radius: 0 0 1rem 1rem;
 }
