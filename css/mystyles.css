@@ -14,6 +14,7 @@ body {
 
 section > .wrap-top {
   position: fixed;
+  height: 200px;
 }
 
 
@@ -41,7 +42,7 @@ HDR Attributes
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   color: white;
   font-weight: bold;
-  font-size: 6.5rem;
+  font-size: 5rem;
   margin: 0;
   letter-spacing: -0.02rem;
   text-transform: capitalize;
