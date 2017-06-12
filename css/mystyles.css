@@ -17,6 +17,17 @@ section > .wrap-top {
   height: 200px;
 }
 
+.detail-text-1 {
+  padding-left: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-style: italic;
+}
+
+.detail-text-2 {
+  margin-bottom: 8px;
+}
+
 
 /*****************************
 HDR Attributes
@@ -138,6 +149,14 @@ SOCIAL Attributes
   margin: 1.25rem 0.5rem;
 }
 
+.fa-graduation-cap {
+  color: purple;
+}
+
+.simplot-logo {
+  height: 15px;
+  width: 15px;
+}
 
 /************************** 
 Responsive Styles
