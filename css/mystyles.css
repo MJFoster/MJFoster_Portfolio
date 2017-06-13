@@ -8,13 +8,13 @@ This will be my main website about my work
 **************************/
 body {
     color: #222222;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 section > .wrap-top {
   position: fixed;
-  height: 200px;
+  height: 180px;
 }
 
 .detail-text-1 {
@@ -28,6 +28,10 @@ section > .wrap-top {
   margin-bottom: 8px;
 }
 
+.detail-icon {
+  height: 25px;
+  width: 25px;
+}
 
 /*****************************
 HDR Attributes
@@ -39,12 +43,12 @@ HDR Attributes
 }
 
 .wrap-hdr-photo-and-txt {
-  padding: 2rem 5rem;
+  padding: 1rem 5rem;
 }
 
 .wrap-hdr-photo {
-  height: 250px;
-  width: 185px;
+  height: 225px;
+  width: 175px;
   margin-right: 10rem;
   border-radius: 10rem;
 }
@@ -115,7 +119,6 @@ HEADING's Attributes
 ************************************/
 .heading {
   max-width: 28rem;
-  margin-top: 2rem;
 }
 
 
@@ -124,7 +127,7 @@ FOOTER Attributes
 **************************/
 .wrap-footer {
   padding: 2rem 0;
-  margin: 3rem 35%;
+  margin: 1rem 35%;
   border-top: #00261C solid;
   text-align: center; 
 }
@@ -149,14 +152,10 @@ SOCIAL Attributes
   margin: 1.25rem 0.5rem;
 }
 
-.fa-graduation-cap {
+.invest-and-learn-favicon {
   color: purple;
 }
 
-.simplot-logo {
-  height: 15px;
-  width: 15px;
-}
 
 /************************** 
 Responsive Styles
