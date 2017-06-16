@@ -6,12 +6,17 @@ This will be my main website about my work
 /**************************
   Main element attributes
 **************************/
+.inline {
+  display: inline;
+}
+
 body {
     color: #222222;
     font-size: 1.25rem;
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+li
 section > .wrap-top {
   position: fixed;
   height: 180px;
@@ -33,6 +38,10 @@ section > .wrap-top {
   width: 25px;
 }
 
+.item-detail {
+  margin-left: 20px;
+  display: block;
+}
 /*****************************
 HDR Attributes
 *****************************/
@@ -127,7 +136,7 @@ FOOTER Attributes
 **************************/
 .wrap-footer {
   padding: 2rem 0;
-  margin: 1rem 35%;
+  margin: 3rem 25%;
   border-top: #00261C solid;
   text-align: center; 
 }
