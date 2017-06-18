@@ -16,10 +16,10 @@ body {
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-li
-section > .wrap-top {
-  position: fixed;
+.wrap-top {
   height: 180px;
+  width: 100%;
+  position: fixed;
 }
 
 .detail-text-1 {
@@ -113,15 +113,22 @@ Navigation Attributes
 Main-Content Attributes
 ****************************/
 .main-content {
-  max-width: 80rem;
+  width: 50%;
+  padding-top: 25%;
   margin-left: auto;
   margin-right: auto;
 }
+
 .main-content > p, .wrap-footer > p {
     font-weight: 300;
     letter-spacing: 0.05rem;
 }
 
+#ed-experience, #contact-me {
+  padding-top: 25%;
+  background-color: red;
+  overflow: hidden;
+}
 
 /************************************
 HEADING's Attributes
