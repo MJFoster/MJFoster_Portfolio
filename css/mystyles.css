@@ -16,12 +16,6 @@ body {
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.wrap-top {
-  height: 180px;
-  width: 100%;
-  position: fixed;
-}
-
 .detail-text-1 {
   padding-left: 25px;
   margin-top: 0px;
@@ -45,6 +39,13 @@ body {
 /*****************************
 HDR Attributes
 *****************************/
+.wrap-top {
+  height: 180px;
+  width: 100%;
+  position: fixed;
+  z-index: 9999;  /* places this element underneath, on the z-axis, all others.*/
+}
+
 .wrap-hdr {
   background-image: url('https://dl.dropboxusercontent.com/u/3562920/_USERS/MaryJo/.%20EDUCATION/.%20Source/_RESOURCES/img/green-grass.jpg');
   background-size: cover;
@@ -124,10 +125,8 @@ Main-Content Attributes
     letter-spacing: 0.05rem;
 }
 
-#ed-experience, #contact-me {
-  padding-top: 25%;
-  background-color: red;
-  overflow: hidden;
+#about-me, #ed-experience, #contact-me {
+  padding-top: 55%;
 }
 
 /************************************
