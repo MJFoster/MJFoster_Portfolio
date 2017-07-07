@@ -11,6 +11,7 @@ This will be my main website about my work
 }
 
 body {
+    height: 1500px;
     color: #222222;
     font-size: 1.25rem;
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
@@ -40,7 +41,7 @@ body {
 HDR Attributes
 *****************************/
 .wrap-top {
-  height: 180px;
+  height: 25%;
   width: 100%;
   position: fixed;
   z-index: 9999;  /* places this element underneath, on the z-axis, all others.*/
@@ -115,7 +116,7 @@ Main-Content Attributes
 ****************************/
 .main-content {
   width: 50%;
-  padding-top: 25%;
+  padding-top: 20%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -125,9 +126,6 @@ Main-Content Attributes
     letter-spacing: 0.05rem;
 }
 
-#about-me, #ed-experience, #contact-me {
-  padding-top: 55%;
-}
 
 /************************************
 HEADING's Attributes
