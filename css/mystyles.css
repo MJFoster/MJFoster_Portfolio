@@ -22,15 +22,21 @@ section > .wrap-top {
   height: 180px;
 }
 
+h3, h4, h5 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
 .detail-text-1 {
   padding-left: 25px;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 5px;
   font-style: italic;
 }
 
 .detail-text-2 {
-  margin-bottom: 8px;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 .detail-icon {
